@@ -23,7 +23,3 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
 }
-
-bootJar {
-    mainClassName = 'org.thraex.toolbox.App'
-}

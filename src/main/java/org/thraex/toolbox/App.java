@@ -1,5 +1,6 @@
 package org.thraex.toolbox;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,9 +18,12 @@ public class App {
         SpringApplication.run(App.class, args);
     }
 
+    @Value("${spring.application.name}")
+    private String name;
+
     @GetMapping
     public String hello() {
-        return "Hello Gradle!";
+        return "Hello Gradle! " + name;
     }
 
 }
