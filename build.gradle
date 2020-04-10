@@ -15,4 +15,5 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'com.spring4all:swagger-spring-boot-starter:1.9.1.RELEASE'
 }

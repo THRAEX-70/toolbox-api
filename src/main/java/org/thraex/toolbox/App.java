@@ -1,5 +1,6 @@
 package org.thraex.toolbox;
 
+import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2020/04/10 14:23
  */
 @SpringBootApplication
+@EnableSwagger2Doc
 public class App {
 
     public static void main(String[] args) {

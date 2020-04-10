@@ -1,3 +1,11 @@
 spring:
   application:
     name: TOOLBOX-API
+
+swagger:
+  title: Toolbox API
+  version: 1.0.0
+  contact:
+    name: THRAEX
+    email: THRAEX@aliyun.com
+  exclude-path: /error
