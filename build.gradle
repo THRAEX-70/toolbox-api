@@ -10,8 +10,8 @@ plugins {
     // Apply the java plugin to add support for Java
     id 'java'
 
-    // Apply the application plugin to add support for building a CLI application.
-    id 'application'
+    id 'org.springframework.boot' version '2.2.0.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
 }
 
 repositories {
@@ -21,14 +21,9 @@ repositories {
 }
 
 dependencies {
-    // This dependency is used by the application.
-    implementation 'com.google.guava:guava:28.2-jre'
-
-    // Use JUnit test framework
-    testImplementation 'junit:junit:4.12'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
 }
 
-application {
-    // Define the main class for the application.
-    mainClassName = 'org.thraex.App'
+bootJar {
+    mainClassName = 'org.thraex.toolbox.App'
 }
