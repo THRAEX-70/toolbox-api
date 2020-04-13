@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 /**
  * @author 鬼王
- * @date 2020/04/13 13:45
+ * @date 2019/11/29 15:56
  */
 public class BaseEntity implements Serializable {
 

@@ -1,4 +1,4 @@
-package org.thraex.toolbox;
+package org.thraex;
 
 import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
