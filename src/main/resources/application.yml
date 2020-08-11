@@ -15,4 +15,3 @@ thraex:
     date: yyyy-MM-dd
     time: HH:mm:ss
     date-time: ${thraex.date-time-format.date} ${thraex.date-time-format.time}
-
